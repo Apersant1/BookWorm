@@ -71,7 +71,7 @@ WormBook is a web application for managing and sharing books. Users can create a
   ``` 
 
    
-### 10. Open your web browser and visit `http://localhost:8000` to access the WormBook application.
+### 10. Open your web browser and visit `http://localhost:8000` to access the BookWorm application.
 
 ## Contributing
 
