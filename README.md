@@ -1,6 +1,6 @@
 # BookWorm
 
-WormBook is a web application for managing and sharing books. Users can create an account, add books to their personal library, and browse and search for books added by other users.
+BookWorm is a web application for managing and sharing books. Users can create an account, add books to their personal library, and browse and search for books added by other users.
 
 ## Features
 
