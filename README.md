@@ -75,7 +75,7 @@ BookWorm is a web application for managing and sharing books. Users can create a
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to WormBook, please follow these steps:
+Contributions are welcome! If you'd like to contribute to BookWorm, please follow these steps:
 
 1. Fork the repository.
 
