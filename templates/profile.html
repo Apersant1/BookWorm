@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Profile Page</h1>
+<p>Welcome, {{ request.user.username }}!</p>
+
+<!-- Display form -->
+<form method="POST">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">Add Book</button>
+</form>
+
+<!-- Display list of books -->
+<h2>My Books</h2>
+<ul>
+  {% for book in books %}
+  <li>{{ book.title }} by {{ book.author }}</li>
+  {% empty %}
+  <li>No books added yet.</li>
+  {% endfor %}
+</ul>
+{% endblock %}
