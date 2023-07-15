@@ -16,11 +16,11 @@ WormBook is a web application for managing and sharing books. Users can create a
 
 ## Technologies Used
 
-- Django: The web application is built using the Django web framework, which provides a robust foundation for creating web applications.
+- [![Django](https://img.shields.io/badge/Django-3.2-blue)](https://www.djangoproject.com/)  The web application is built using the Django web framework, which provides a robust foundation for creating web applications.
 
-- SQLite: The project uses SQLite as the default database for storing user and book data.
+- [![SQLite](https://img.shields.io/badge/SQLite-3-green)](https://www.sqlite.org/index.html)  The project uses SQLite as the default database for storing user and book data.
 
-- HTML/CSS: The user interface is built using HTML and CSS for styling and layout.
+- [![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-5%2F3-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)  The user interface is built using HTML and CSS for styling and layout.
 
 ## Setup
 
