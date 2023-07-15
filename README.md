@@ -22,3 +22,72 @@ WormBook is a web application for managing and sharing books. Users can create a
 
 - HTML/CSS: The user interface is built using HTML and CSS for styling and layout.
 
+## Setup
+
+### 1. Clone the repository:
+   ```console
+   foo@bar:~$ git clone https://github.com/Apersant1/BookWorm.git
+   ```
+### 2. Create a virtual environment:
+   ```console
+   foo@bar:~$ python -m venv myenv
+   ```
+
+
+### 3. Activate the virtual environment:
+
+   - For Windows:
+     
+   ```console
+   \myenv\Scripts\activate
+   ``` 
+
+  
+   - For macOS/Linux:
+     
+   ```console
+   source myenv/bin/activate
+   ``` 
+     
+     
+     
+### 4. Install the dependencies:
+  ```console
+  pip install -r requirements.txt
+  ``` 
+    
+   
+   
+   
+### 8. Apply database migrations:
+  ```console
+  python manage.py migrate
+  ``` 
+   
+   
+### 9. Start the development server:
+  ```console
+  python manage.py runserver
+  ``` 
+
+   
+### 10. Open your web browser and visit `http://localhost:8000` to access the WormBook application.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to WormBook, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or bug fix.
+
+3. Make your changes and commit them with descriptive commit messages.
+
+4. Push your changes to your forked repository.
+
+5. Submit a pull request to the main repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
