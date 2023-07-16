@@ -59,19 +59,19 @@ BookWorm is a web application for managing and sharing books. Users can create a
    
    
    
-### 8. Apply database migrations:
+### 5. Apply database migrations:
   ```console
   python manage.py migrate
   ``` 
    
    
-### 9. Start the development server:
+### 6. Start the development server:
   ```console
   python manage.py runserver
   ``` 
 
    
-### 10. Open your web browser and visit `http://localhost:8000` to access the BookWorm application.
+### 7. Open your web browser and visit `http://localhost:8000` to access the BookWorm application.
 
 ## Contributing
 
